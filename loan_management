@@ -1,0 +1,8 @@
+CREATE DATABASE loan_management
+CREATE TABLE customer
+  `CustomerId` int(11) NOT NULL AUTO_INCREMENT,
+  `customer_name` varchar(50) NOT NULL,
+  `customer_phone` varchar(50) DEFAULT NULL,
+  `customer_address` varchar(50) NOT NULL,
+  `balance` decimal(38,2) NOT NULL,
+  PRIMARY KEY (`CustomerId`)
