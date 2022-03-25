@@ -6,3 +6,15 @@ CREATE TABLE customer
   `customer_address` varchar(50) NOT NULL,
   `balance` decimal(38,2) NOT NULL,
   PRIMARY KEY (`CustomerId`)
+  
+INSERT INTO `customer` (`CustomerId`, `customer_name`, `customer_phone`, `customer_address`, `balance`) VALUES
+	(1, 'Farrah Dobbie', '3688961901', '49862 Kingsford Junction', 69687.54),
+	(2, 'Malcolm Orbell', '8867727382', '385 Lawn Terrace', 55592.51),
+	(3, 'Filippa Bucknill', '6677805329', '1898 Michigan Road', 53826.01),
+	(4, 'Dido Vanezis', '2887691797', '57689 Myrtle Park', 30581.83),
+	(5, 'Annelise Aspland', '2096293966', '3922 Cherokee Place', 87026.91),
+	(6, 'Herminia Newby', '8111478402', '19 Chive Center', 5414.47),
+	(7, 'Lind Hanley', '7504959822', '7534 Village Green Center', 25921.26),
+	(8, 'Mimi Gilhooley', '6594140488', '16033 Pond Avenue', 62834.94),
+	(9, 'Ileana Parkes', '1281389203', '095 Warner Hill', 76939.31),
+	(10, 'Larissa Yeldham', '2812360584', '220 Shopko Parkway', 15790.59);
